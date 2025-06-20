@@ -1,1 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>计算数学 | 你的名字</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- MathJax 公式支持 -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+    <header class="math-header">
+        <div class="header-content">
+            <h1>你的名字</h1>
+            <p>计算数学研究者</p>
+            <div class="math-symbols">
+                <span>\(\nabla\)</span>
+                <span>\(\int\)</span>
+                <span>\(\sum\)</span>
+                <span>\(\partial\)</span>
+            </div>
+        </div>
+    </header>
 
+    <section id="about">
+        <h2>关于我</h2>
+        <div class="content-wrapper">
+            <div class="bio">
+                <p>专注于数值分析、科学计算和偏微分方程数值解。目前研究兴趣：</p>
+                <ul>
+                    <li>自适应有限元方法</li>
+                    <li>高性能计算</li>
+                    <li>不确定性量化</li>
+                </ul>
+                <p>代表性方程：</p>
+                <div class="math-display">
+                    \[ \frac{\partial u}{\partial t} = \nabla \cdot (D \nabla u) + f \]
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="research">
+        <h2>研究项目</h2>
+        <div class="project">
+            <h3>非线性PDE的高阶格式</h3>
+            <p>提出了一种新型WENO格式求解守恒律方程：</p>
+            <p class="math-inline">\( u_t + f(u)_x = 0 \)</p>
+        </div>
+        <div class="project">
+            <h3>随机Galerkin方法</h3>
+            <p>应用于带随机输入的扩散方程：</p>
+            <div class="math-display">
+                \[ -\nabla \cdot (a(\omega, x) \nabla u) = f \]
+            </div>
+        </div>
+    </section>
+
+    <section id="publications">
+        <h2>学术发表</h2>
+        <ul>
+            <li>Your Name (2023). <em>高性能并行有限元实现</em>. J. Comput. Math.</li>
+            <li>Your Name et al. (2022). <em>非结构网格上的自适应方法</em>. SIAM J. Sci. Comput.</li>
+        </ul>
+    </section>
+
+    <footer class="math-footer">
+        <p>© 2025 计算数学 | 通过GitHub Pages部署</p>
+        <div class="footer-links">
+            <a href="mailto:your.email@example.com">邮箱</a>
+            <a href="https://github.com/yourprofile">GitHub</a>
+            <a href="https://scholar.google.com/citations?user=ID">Google Scholar</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
